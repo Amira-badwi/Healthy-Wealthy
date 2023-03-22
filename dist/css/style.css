@@ -1,0 +1,393 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: 'Somar Rounded';
+    src: url('../webfonts/somar-sans/semi-bold.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Rounded';
+    src: url('../webfonts/somar-sans/medium.woff2') format('woff2');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Rounded thin';
+    src: url('../webfonts/somar-sans/regular.woff2') format('woff2');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Somar Rounded thin';
+    src: url('../webfonts/somar-sans/light.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+.orange_btn{
+    background-color: #F7970E;
+}
+.green_btn{
+    background-color: #9ECB3C;
+  
+}
+.green_btn ,.orange_btn{
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+   height: 37px;
+   padding:0 14px;
+
+
+}
+nav img{
+    margin-right: 8%;
+}
+nav ul li{
+display: inline;
+margin-left: 25px;
+font-weight: bold;
+list-style-type: none;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color:black ;
+}
+nav ul{
+    margin-top: 20px;
+}
+
+.navbar{
+    width: 98%;
+    margin: auto;
+    height: 60px;
+    z-index: 99;
+    
+}
+body{
+ padding-top: 10px;
+    width: 100%;
+    position: relative;
+}
+.about{
+    width: 98%;
+    margin: 2px auto;    
+    display: flex;
+    justify-content: center;
+}
+.about div{
+    width: 78%;
+    margin: 100px;
+
+
+}
+.about div span{
+    font-size: 13px;
+    margin-top: 13px;
+    font-family: 'Rounded';
+
+}
+.about div p {
+    color: #F7970E;
+    margin-bottom: -20px;
+font-size: 12px;
+font-family: 'Rounded';
+
+
+}
+.about div h4{
+    color:#9ECB3C ;
+   
+    font-family: "Somar Rounded";
+
+}
+.about button.btn1{
+    background-color:#9ECB3C ;
+}
+.about button.btn2{
+border: 1px solid rgb(182, 179, 179);
+}
+.about button{
+    font-family: 'Rounded thin';
+    border: none;
+    border-radius: 25px;
+    font-size: 14px;
+    height: 40px;
+    width: 160px;
+}
+.img_small{
+    display: none;
+}
+
+ .heathy_program{
+    width: 98%;
+    margin: auto;
+    text-align: center;
+
+ }
+ .heathy_program h5{
+width: 210px;
+margin: auto;
+color:#9ECB3C ;
+font-family: "Somar Rounded";
+
+
+
+}
+.heathy_program .centerParagraf{
+    width: 710px;
+    margin: auto;
+    text-align: center;
+    font-size: 13px;
+    font-family: 'Rounded thin';
+
+
+}
+
+.heathy_program .containImg{
+width: 100px;
+height: 100px;
+border: 1px solid #DFDFDF;
+margin-bottom: 100px;
+z-index: 99;
+position: relative;
+
+}
+.heathy_program .containImg img{
+margin:20px auto;
+display: block;}
+
+.heathy_program h6{
+    font-family: "Somar Rounded";
+width: 300px;
+}
+
+.heathy_program  .cardparagraf{
+    font-family: 'Somar Rounded thin';
+    width: 300px;
+    text-align: center;
+    margin-top: 15px;
+color: #757070;
+}
+
+.dashes{
+    width: 250px;
+    border-bottom: dashed 2px rgba(128, 128, 128, 0.548);
+    height: 10px;
+    position: relative;
+    bottom: -86px;
+    left: 43%;
+}
+.dashes p
+{
+    width: 10px;
+    height: 10px;
+    background-color: #a39b9b;
+    rotate: 120deg;
+}
+
+
+.card_eating_program{
+height: 130px;
+border-radius: 10px;
+}
+.card_eating_program p{
+    font-family: 'Rounded thin';
+}
+.bigdisplaynone{
+    display: none;
+}
+.centerancor a{
+    display: inline-block;
+    margin-left: 20px;
+    font-family: 'Rounded thin';
+text-decoration: none;
+color: black;
+
+}
+
+.centerancor a:hover{
+    color:#F7970E ;
+}
+.moredemand div{
+    border-radius: 10px;
+    border: 1px solid rgb(190, 180, 180);
+    padding: 20px 0px;
+width: 90%;
+margin: auto;
+height: 100%;
+}
+.moredemand{
+    padding: 10px 0px;
+    font-family: 'Rounded thin';
+
+}
+.moredemand div img{
+    width:80%;
+    display: block;
+    margin: auto;
+}
+.moredemand span{
+    color:#b9d875 ;
+    font-size: 12px;
+
+}
+.joinus{
+    background-color: #9ECB3C;
+    width: 98%;
+    height: 100%;
+    color: white;
+    position: relative;
+    margin-right: 100px;
+}
+.joinus .childDiv{
+    margin-top: 50px;
+
+}
+.joinus button {
+    height: 50px;
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+    border: none;
+    width: 170px;
+    margin-top: 5%;
+}
+.joinus h5 {
+    font-family: "Somar Rounded";
+
+}
+.joinus p {
+    font-family: 'Somar Rounded thin';
+font-size: 12px;
+margin-top: 15px;
+}
+footer ul {
+    list-style-type: none;
+    text-align: right;
+}
+footer ul li{
+    color: #757070;
+    font-family: 'Somar Rounded thin';
+margin-top: 20px;
+}
+footer ul .firstchild{
+    color: #F7970E;
+    font-family: "Somar Rounded";
+    font-size: 20px;
+margin-top: 20px;
+}
+footer input {
+    height: 44px;
+    outline: none;
+    border: #68656562 solid 1px;
+    border-radius: 10px;
+    font-family: "Font Awesome 5 free"
+}
+
+
+@media only screen and (min-width: 980px)and (max-width: 1190px) {
+  
+    .heathy_program  .cardparagraf{
+        width: 200px;
+    }
+
+    .about img{
+        width: 30%;
+        height: 400px;
+    }
+  }
+  @media only screen and (max-width: 770px) {
+ 
+       
+
+    .large_img{
+        display: none;
+    }
+    .about{
+        display: inline-block;
+       
+    }
+ .img_small{
+    display: inline;
+    height: 300px;
+    width: 100%;
+ }
+
+.collapse{
+    background-color:white;
+}
+
+
+  }
+
+  @media only screen and (min-width: 770px) {
+  
+
+
+    .about img{
+        width: 30%;
+        height: 400px;
+    }
+   
+  }
+
+  @media only screen and (max-width: 1000px) {
+  
+    .deletedSmall{
+        display: none;
+    }
+
+    .bigdisplaynone{
+        display: block;
+    }
+  
+  .bignav{
+    display: none;
+  }
+.buttons{
+    width: 100px;
+}        
+form{
+    background-size: contain;
+}
+
+   
+  }
+  @media only screen and (max-width: 570px) {
+  
+     .dashes 
+    {
+        display: none;
+    }
+   .moredemand div{
+    width: 50%;
+   }
+
+  }
+  @media only screen and (max-width: 645px)  and (min-width: 570px)  {
+  
+     .dashes 
+    {    width: 250px;
+
+    }
+   
+  }
+  @media only screen and (max-width: 985px)  and (min-width: 740px)  {
+  
+     .dashes 
+    {    width: 350px;
+
+    }
+   
+  }

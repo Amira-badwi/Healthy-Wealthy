@@ -1,0 +1,56 @@
+form{
+    background-image:url("../img/background.png") ;
+background-size:100%;
+background-repeat: no-repeat;
+height: 500px;
+}
+form .contain{
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    width: 400px;
+    position: relative;
+    top:100px;
+    height: 330px;
+    padding-top: 20px;
+    padding-right: 10px;
+}
+form h5{
+    color:#b9d875 ;
+    font-family: 'Rounded';
+
+}
+form p {
+    font-family: 'Rounded';
+font-size: 12px;
+text-align: center;
+
+}
+form input{
+    outline: none;
+    border-radius: 5px;
+    border: #6e706a48 1px solid;
+    width: 90%;
+    margin-bottom: 10px;
+    height: 30px;
+    font-family: "Font Awesome 6 free";
+}
+form label{
+    font-family: 'Rounded';
+
+}
+@media only screen and (min-width: 500px) and (max-width: 900px) {
+    form .contain{
+        width: 340px;
+    }
+
+   
+  
+}
+@media only screen and (max-width: 500px) {
+    form .contain{
+        width: 80%;
+    }
+    form{
+        background-size:cover;
+    }
+}
